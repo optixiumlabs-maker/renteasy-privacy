@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RentLog — How to Delete Your Data</title>
+<style>
+  :root { color-scheme: light; }
+  * { box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.65;
+    color: #1A1A1A;
+    background: #F5F2ED;
+    margin: 0;
+    padding: 32px 16px;
+  }
+  .container {
+    max-width: 760px;
+    margin: 0 auto;
+    background: #FFFFFF;
+    border-radius: 18px;
+    padding: 40px 44px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.04);
+    border: 1px solid rgba(0,0,0,0.06);
+  }
+  header {
+    border-bottom: 1px solid #E5E2DD;
+    padding-bottom: 20px;
+    margin-bottom: 28px;
+  }
+  h1 {
+    font-size: 28px;
+    margin: 0 0 8px 0;
+    color: #1A3A2A;
+    letter-spacing: -0.2px;
+  }
+  .subtitle {
+    color: #6B6B6B;
+    font-size: 14px;
+    margin: 0;
+  }
+  h2 {
+    color: #1A3A2A;
+    font-size: 20px;
+    margin: 32px 0 12px 0;
+    padding-bottom: 6px;
+    border-bottom: 2px solid #D6EDE2;
+  }
+  h3 {
+    color: #1A3A2A;
+    font-size: 15px;
+    margin: 18px 0 8px 0;
+    font-weight: 700;
+  }
+  p, li { font-size: 15px; }
+  ol, ul { padding-left: 24px; }
+  ol li, ul li { margin-bottom: 6px; }
+  code {
+    background: #F0EDE8;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-family: "Menlo", "Consolas", monospace;
+    font-size: 13px;
+    color: #1A3A2A;
+  }
+  a { color: #3A7D5A; text-decoration: underline; }
+  a:hover { color: #1A3A2A; }
+  .notice {
+    background: #FFF3CD;
+    border: 1px solid #FFD700;
+    border-radius: 12px;
+    padding: 14px 18px;
+    margin: 20px 0;
+    font-size: 14px;
+    color: #856404;
+  }
+  .info {
+    background: #D6EDE2;
+    border-radius: 12px;
+    padding: 14px 18px;
+    margin: 20px 0;
+    font-size: 14px;
+    color: #1A3A2A;
+  }
+  footer {
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid #E5E2DD;
+    color: #6B6B6B;
+    font-size: 13px;
+    text-align: center;
+  }
+  .meta {
+    color: #6B6B6B;
+    font-size: 13px;
+    margin: 4px 0;
+  }
+</style>
+</head>
+<body>
+<div class="container">
+  <header>
+    <h1>How to Delete Your RentLog Data</h1>
+    <p class="subtitle">Step-by-step instructions for deleting your data from RentLog by Optixium Labs.</p>
+    <p class="meta"><strong>App:</strong> RentLog (com.optixiumlabs.renteasy)</p>
+    <p class="meta"><strong>Developer:</strong> Optixium Labs</p>
+    <p class="meta"><strong>Contact:</strong> <a href="mailto:optixiumlabs@gmail.com">optixiumlabs@gmail.com</a></p>
+  </header>
+
+  <div class="info">
+    <strong>Quick summary:</strong> RentLog does not store any of your data on our servers — we don't have any. Your data lives on your device (and optionally in your own Google Drive if you enabled backup). You can delete it in three different ways, described below.
+  </div>
+
+  <h2>Option 1 — Delete from inside the app (recommended)</h2>
+  <ol>
+    <li>Open RentLog.</li>
+    <li>Tap <strong>Settings</strong> (the gear icon at the bottom of the screen).</li>
+    <li>Scroll to the <strong>Backup</strong> section.</li>
+    <li>Tap <strong>Delete account &amp; data</strong>.</li>
+    <li>Confirm both prompts: tap <strong>Continue</strong>, then <strong>Delete account</strong>.</li>
+  </ol>
+
+  <p>This will:</p>
+  <ul>
+    <li>Delete <strong>all properties, payments, repairs and categories</strong> stored on this device.</li>
+    <li>Delete <strong>every RentLog backup file</strong> from your Google Drive (if Drive backup was enabled).</li>
+    <li>Sign you out of Google.</li>
+    <li>Cancel all scheduled rent reminders.</li>
+  </ul>
+
+  <p>The deletion is <strong>immediate and permanent</strong>. No data is retained on our side because we don't have any servers.</p>
+
+  <h2>Option 2 — Clear data only (keep Google sign-in)</h2>
+  <p>If you want to wipe all your records but stay signed into Google for future use:</p>
+  <ol>
+    <li>Open RentLog.</li>
+    <li>Tap <strong>Settings</strong>.</li>
+    <li>Tap <strong>Clear all data</strong>.</li>
+    <li>Confirm both prompts.</li>
+  </ol>
+  <p>This removes the local database (properties, payments, repairs) but leaves your Google sign-in and existing Drive backups untouched.</p>
+
+  <h2>Option 3 — Already uninstalled the app</h2>
+  <p>If you no longer have RentLog installed and want to remove data that was uploaded to your Google Drive:</p>
+
+  <h3>Delete the backup folder</h3>
+  <ol>
+    <li>Open <a href="https://drive.google.com" target="_blank" rel="noopener">drive.google.com</a> on a computer or phone.</li>
+    <li>In the search bar, type: <code>RentLog Backups</code></li>
+    <li>Right-click the folder named <strong>RentLog Backups</strong> and select <strong>Move to trash</strong>.</li>
+    <li>Open Drive trash and click <strong>Empty trash</strong>.</li>
+  </ol>
+
+  <h3>Revoke the app's access to your Google account</h3>
+  <ol>
+    <li>Open <a href="https://myaccount.google.com/permissions" target="_blank" rel="noopener">myaccount.google.com/permissions</a></li>
+    <li>Find <strong>RentLog</strong> in the list of third-party apps.</li>
+    <li>Click <strong>Remove access</strong>.</li>
+  </ol>
+
+  <h2>Option 4 — Email request</h2>
+  <p>If you cannot perform the steps above, email <a href="mailto:optixiumlabs@gmail.com?subject=RentLog%20%E2%80%94%20data%20deletion%20request">optixiumlabs@gmail.com</a> with the subject <em>"RentLog — data deletion request"</em> and your Google account email address.</p>
+  <div class="notice">
+    Because we do not run servers and do not store user data, an email request is only useful to confirm that the steps above have been completed. We cannot remotely delete data — only the device owner can.
+  </div>
+
+  <h2>What data is deleted</h2>
+  <ul>
+    <li>All properties, tenants, payments, repairs, categories, and deposits — stored only on your device.</li>
+    <li>All backup files in your Google Drive (.json files inside the "RentLog Backups" folder).</li>
+    <li>Your sign-in token (you'll be signed out of Google in the app).</li>
+    <li>Scheduled rent reminders.</li>
+    <li>App preferences (theme, language choice, notification settings).</li>
+  </ul>
+
+  <h2>What data is retained</h2>
+  <ul>
+    <li><strong>Nothing on our side.</strong> Optixium Labs does not operate any servers for RentLog. We have no user database, no analytics database, no logs containing your personal information.</li>
+    <li><strong>Google Drive trash:</strong> deleted files remain in Drive's trash for up to 30 days before permanent deletion (Google's own retention policy, outside our control). Empty the trash to remove them immediately.</li>
+    <li><strong>Google Play purchase history:</strong> if you bought a Premium subscription, Google Play retains transaction records as required by tax and consumer-protection law. This is managed by Google, not by Optixium Labs.</li>
+  </ul>
+
+  <h2>Questions</h2>
+  <p>For any privacy or data-handling questions, email <a href="mailto:optixiumlabs@gmail.com">optixiumlabs@gmail.com</a>. We aim to respond within 7 business days.</p>
+
+  <footer>
+    Optixium Labs &middot; RentLog &middot; Last updated November 2026
+  </footer>
+</div>
+</body>
+</html>

@@ -1,0 +1,6 @@
+# GitHub Pages config — enables Jekyll so .md files render as HTML.
+# Drop this file in the root of the renteasy-privacy repo.
+
+title: RentLog Privacy & Data
+description: Privacy policy and data deletion instructions for the RentLog app.
+theme: jekyll-theme-cayman
